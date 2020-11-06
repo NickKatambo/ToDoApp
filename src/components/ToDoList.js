@@ -1,11 +1,15 @@
 import React from "react";
+// Import Components
+import Todo from './Todo';
 
-function ToDoList(){
+function TodoList(){
     return(
         <div className="todo-container">
-            <ul className="todo-list"></ul>
+            <ul className="todo-list">
+                <Todo></Todo>
+            </ul>
         </div>
     );
 };
 
-export default ToDoList;
+export default TodoList;
